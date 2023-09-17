@@ -85,7 +85,7 @@ int _precision(const char *format, int *i, va_list list);
 int _size(const char *format, int *i);
 
 /*Function to print string in reverse*/
-int p_reverse(va_list types, char buffer[],
+int _reverse(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
 /*Function to print a string in rot 13*/
