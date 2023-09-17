@@ -82,7 +82,7 @@ int print_pointer(va_list types, char buffer[],
 int get_flags(const char *format, int *i);
 int _width(const char *format, int *i, va_list list);
 int _precision(const char *format, int *i, va_list list);
-int get_size(const char *format, int *i);
+int _size(const char *format, int *i);
 
 /*Function to print string in reverse*/
 int p_reverse(va_list types, char buffer[],
