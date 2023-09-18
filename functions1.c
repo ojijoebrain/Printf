@@ -91,7 +91,7 @@ int _octal(va_list types, char buffer[],
 int _hexadecimal(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
-	return (print_hexa(types, "0123456789abcdef", buffer,
+	return (_hexa(types, "0123456789abcdef", buffer,
 		flags, 'x', width, precision, size));
 }
 
